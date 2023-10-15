@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+    </style>
+</head>
+<body>
+    <br>
+    <div class="container" style="font-family: 'Poppins', sans-serif; justify-content: center;">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card col-sm-12">
+                    <div class="card-header bg-success text-white">
+                        <h4>Pengaturan Alert Kece</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="input-group mb-3">
+                            <input type="text" id="customMessage" class="form-control" placeholder="Ketik pesan kamu disini yaa"></div>
+                        <div id="pesan" class="alert alert-light"></div>
+                        <div class="input-group mb-3">
+                            <select class="form-control" id="alertTypeDropdown">
+                                <option value="light">Default</option>
+                                <option value="primary">Primary</option>
+                                <option value="danger">Danger</option>
+                                <option value="warning">Warning</option>
+                                <option value="success">Success</option>
+                                <option value="dark">Dark</option>
+                                <option value="secondary">Secondary</option>
+                            </select>
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="Ngubah();">Kirim Permintaan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="pembelajaran3.js"></script>
+</html>
